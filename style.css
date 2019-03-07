@@ -1,0 +1,85 @@
+
+*{transition: all .1s ease-in;}
+html {
+	height: 97%; /* высота секции равна высоте области просмотра */
+	border: 10px solid #fff;
+	/* background-color: #000; */
+}
+body{
+	margin: 0;
+	font-family: 'Trebuchetui MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 20px;
+	line-height: 1.6;
+	color: #000305;
+	background-color: #3b3f45;
+	border: 0;
+}
+h2 {
+	margin: 0;
+}
+header {
+	color: #eb7e7f;
+	background-color: #4a4f56;
+	margin: 0px auto;
+	text-align: center;
+	padding: 0px ;
+	margin-top: 0px;
+}
+
+p {
+	margin: 0 0 20px 0;
+}
+.container {
+	background-color: #88839e;
+	width: 40%;
+	margin: auto;
+	padding: 0px;
+	list-style-type: none;
+	height: auto;
+	color: #fff;
+}
+small {
+	font-size: 10px;
+	vertical-align:middle;
+}
+.aft:after {
+	content: ")";
+}
+.bef:before {
+	content: " (";
+}
+li:nth-child(even){
+	background-color: #625e77;
+	border-top: 2px solid #625e77;
+	border-bottom: 2px solid #625e77;
+}
+li:nth-child(odd){
+	border-top: 2px solid #625e77;
+	border-bottom: 2px solid #625e77;
+}
+
+li:hover,
+li:focus {
+   	border-color: #fff;
+}
+li:active {
+	background-color: #eb7e7f;
+}
+input:checked + span {
+	text-decoration: line-through;
+	opacity: 0.5;
+	}
+.button{
+	color: #eb7e7f;
+	background-color: #4a4f56;
+	margin: auto;
+	text-align: center;
+	padding: 0px;
+	width: 40%;
+margin-top: 10px;
+}
+label {
+	display: block;
+	padding: 10px;
+}
+
