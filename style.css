@@ -1,4 +1,4 @@
-
+﻿
 *{transition: all .1s ease-in;}
 html {
 	height: 97%; /* высота секции равна высоте области просмотра */
@@ -60,10 +60,10 @@ li:nth-child(odd){
 
 li:hover,
 li:focus {
-   	border-color: #fff;
+   	border-color: #fffff;
 }
 li:active {
-	background-color: #eb7e7f;
+	background-color: #eb7e7a;
 }
 input:checked + span {
 	text-decoration: line-through;
