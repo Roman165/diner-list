@@ -16,7 +16,9 @@ body{
 
 }
 main {
-	width: 80%;
+	width: 100%;
+	margin: 0 auto;
+	
 }
 h2 {
 	margin: 0;
@@ -36,13 +38,12 @@ p {
 .container {
 	background-color: #88839e;
 	width: 40%;
-	margin: auto;
+	margin: 0 auto;
 	padding: 0px;
 	list-style-type: none;
 	height: auto;
 	color: #fff;
-	display: inline-block;
-}
+	}
 small {
 	font-size: 10px;
 	vertical-align:middle;
@@ -65,7 +66,8 @@ li:nth-child(odd){
 
 li:hover,
 li:focus {
-   	border-color: #fffff;
+   	border-color: #fff;
+   	background-color:#4a4f56;
 }
 li:active {
 	background-color: #eb7e7a;
